@@ -1,4 +1,6 @@
-# SafeTravel
+<h1 align="center">
+  🚆 SafeTravel 🚆
+</h1>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ba838a1f-9b76-4554-8473-a02799eb7489"/>
 </p>
