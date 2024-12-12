@@ -20,8 +20,6 @@ SafeTravel es una aplicación moderna para la compra y gestión de billetes de t
 ### Tecnologías usadas:
 
 [![Built with PHP](https://forthebadge.com/images/badges/made-with-php.svg)](https://www.php.net/) &nbsp;
-[![Built with Yii](https://forthebadge.com/images/badges/built-for-comfort.svg)](https://www.yiiframework.com/) &nbsp;
 [![Uses MySQL](https://forthebadge.com/images/badges/uses-git.svg)](https://www.mysql.com/) &nbsp;
 [![Powered by JavaScript](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) &nbsp;
 [![Styled with Bootstrap](https://forthebadge.com/images/badges/uses-css.svg)](https://getbootstrap.com/) &nbsp;
-[![Served by Apache](https://forthebadge.com/images/badges/contains-tasty-code.svg)](https://httpd.apache.org/) &nbsp;
