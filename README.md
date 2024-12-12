@@ -1,6 +1,6 @@
 # SafeTravel
 <p align="center">
-  <img src="(https://github.com/user-attachments/assets/ba838a1f-9b76-4554-8473-a02799eb7489"/>
+  <img src="https://github.com/user-attachments/assets/ba838a1f-9b76-4554-8473-a02799eb7489"/>
 </p>
 SafeTravel es una aplicación moderna para la compra y gestión de billetes de tren. Está diseñada tanto para usuarios finales como para administradores, ofreciendo una experiencia sencilla y eficiente para todos.
 
@@ -19,7 +19,9 @@ SafeTravel es una aplicación moderna para la compra y gestión de billetes de t
 
 ### Tecnologías usadas:
 
-[![Built with PHP](https://forthebadge.com/images/badges/made-with-php.svg)](https://www.php.net/) &nbsp;
-[![Uses MySQL](https://forthebadge.com/images/badges/uses-git.svg)](https://www.mysql.com/) &nbsp;
-[![Powered by JavaScript](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) &nbsp;
-[![Styled with Bootstrap](https://forthebadge.com/images/badges/uses-css.svg)](https://getbootstrap.com/) &nbsp;
+![PHP](https://img.shields.io/badge/PHP-v8.0-blue) &nbsp;
+![Yii Framework](https://img.shields.io/badge/Yii_Framework-v2.0-orange) &nbsp;
+![MySQL](https://img.shields.io/badge/MySQL-v8.0-blue) &nbsp;
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow) &nbsp;
+![Bootstrap](https://img.shields.io/badge/Bootstrap-v5.0-purple) &nbsp;
+![Apache/Nginx](https://img.shields.io/badge/Server-Apache/Nginx-green) &nbsp;
