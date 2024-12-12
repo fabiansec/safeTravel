@@ -18,7 +18,7 @@ SafeTravel es una aplicación moderna para la compra y gestión de billetes de t
 - 📊 **Panel de control:** Supervisa y optimiza las operaciones para mejorar la experiencia del usuario.
 
 ### Tecnologías usadas:
-
+<p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white" />
@@ -27,3 +27,4 @@ SafeTravel es una aplicación moderna para la compra y gestión de billetes de t
   <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" />
+</p>
