@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+
+/*--------------NAVBAR-----------------*/
+
+
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  background-color: #fff;
+  max-width: 100%;
+}  
+.navbar{
+  background-image: linear-gradient(90deg, rgba(210, 49, 73, 1), rgba(37, 76, 124, 1));
+  height: 100px;
+}
+.navbar-brand{
+  font-weight: 500;
+   color: #FFFAFA;
+   font-size: 24px;
+   transition: 0.3s color;
+}
+
+
+
+
+
+.navbar-toggler{
+   border: none;
+   font-size: 1.25rem;
+}
+
+.border{
+  border: 0px;
+}
+
+.navbar-toggler:focus , .btn-close:focus{
+
+  box-shadow: none;
+  outline: none;
+}
+
+.nav-link{
+  color: #FFFAFA;
+  font-weight: 500;
+  position: relative;
+}
+.nav-link:hover {
+  text-shadow: 0px 0px 10px rgb(204, 187, 187) !important; /* Cambia el color del texto a negro cuando el mouse pasa por encima */
+}
+
+
+
+@media (max-width:991px){
+  .nav-link:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 2px;
+    background-color: #FFFAFA;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
+  .nav-link:hover::before, .nav-link:active::before{
+    width: 100%;
+    visibility: visible;
+  }
+
+  .gradient-background {
+    background-color:  rgba(210, 49, 73, 0.1) !important;
+    backdrop-filter: blur(20px) !important;
+
+  }
+
+ 
+
+}
+/* Cambia el color del botón de cierre */
+.offcanvas-header .btn-close {
+  color: red; /* Cambia el color del botón de cierre a rojo */
+}
+
+.btn-sz-primary{
+  font-size: 14px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  color: FFFAFA !important;
+  background-color: #354977 !important;
+}
+
+
+/* --------------------------------------------------------- */
+
+
+
+
+#carouselExampleInterval {
+  margin: 2% auto auto; /* Centra horizontalmente y ajusta el margen superior para separarlo del header */
+  width: 70%; /* Ajusta el ancho según tus necesidades */
+  border-radius: 10px; /* Agrega bordes redondeados al carrusel */
+  overflow: hidden; /* Esto evita que las esquinas redondeadas se vean mal con las imágenes */
+  box-shadow: 
+    0px 0px 8px rgba(0, 0, 0), /* Agrega una sombra al carrusel */
+    -10px -6px 20px rgba(210, 49, 73, 0.7) , /* Agrega una sombra interna con degradado */
+    8px 8px 20px rgba(32, 79, 137, 0.7) ;
+}
+
+.carousel-item {
+  border-radius: 10px; /* Agrega bordes redondeados a los elementos del carrusel */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  border-radius: 10px; /* Agrega bordes redondeados a los controles de navegación */
+}
+
+
+/*----------------------LOGIN --------------------------*/
+
+.bg{
+  background-image: url('/imagenes/trenLogin.png');
+  background-position: center center;
+  
+}
+
+.fondoLogin{
+  background-color: rgba(84, 67, 108, 0.8) !important;
+  backdrop-filter: blur(20px) !important;
+}
+
+.botonInicio{
+  background-color: #414672 !important;
+}
+
+.botonInicio:hover{
+  background-color: white !important;
+  color: black !important;
+}
+
+
+.bgRegistrarse{
+  background: url('/estilos/video/video.mp4');
+  background-position: center center;
+
+}
+
+/*----------------ABOUT US -----------------------------*/
+
+.bgNosotros{
+  background-image: url('/imagenes/trenNosotros.png');
+  background-position: center center;
+  width: 100%;
+  
+}
+
+/*---------------REGISTRARSE----------------------------*/
+
+
+.bgRegistro{
+  background-image: url('/imagenes/fondoRegistro.png');
+  background-position: center center;
+}
+
+
+/*------------------VENTA BILLETES----------------------*/
+
+.accordion-button::after {
+  background-image: none !important;
+}
+
+.accordion-button:active, .accordion-button:focus{
+  border: none !important;
+}
+
+
+.accordion{
+
+  box-shadow: 0 2px 25px 0 rgba(255, 255, 255, 0.18) !important;
+}
+
+.accordion-button{
+  background-color: #ffffff !important;
+  color: #fff !important;
+  position: relative;
+  box-shadow: none !important;
+}
+
+.accordion-button:active, .accordion-button:focus{
+  border: none !important;
+}
+
+
+/*----------------- MENSAJE DE ERROR --------------------*/
+
+.invalid-feedback{
+  display: block !important;
+  font-weight: bold;
+  color: #f06082  !important;
+}
+
+
+.carruselMargen{
+  padding: 0  !important;
+  width: 100%  !important;
+}
+
+
+/*-----------------TABLAS-----------------------------*/
+
+.table th{
+  text-align: center !important;
+}
+
+.inputCrud{
+  width: 30%  !important;
+}
+
+/*------------PAGINADOR---------------------------------*/
+.pager {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgb(139, 168, 153);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 1%;
+}
+
+.pager .izq {
+  float: left;
+  padding-left: 5px;
+  color: white;
+}
+
+.pager .der {
+  float: right;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.pager .der a {
+  text-decoration: none;
+  color: rgb(127, 160, 127);
+}
+
+.pager .der a:hover {
+  text-decoration: none;
+  color: rgb(174, 222, 174);
+}
+
+.pager .final {
+  clear: both;
+}
+
+
+/*--------------Parrafo CRUD-------------------*/
+
+.formCrud{
+  margin-top: 1%  !important;
+  font-size: 20px !important;
+  margin-bottom: 0  !important;
+}
+
+
+
+.btnCrud{
+  background-color: #641867 !important;
+  color: white  !important;
+  margin-left: 3% !important;
+}
+
+.btnCrud2{
+  background-color: #641867 !important;
+  color: white  !important;
+  margin-left: 0.4% !important;
+}
+
+.btnCrud:hover{
+  background-color: #D03464  !important;
+}
+.btnCrud2:hover{
+  background-color: #D03464  !important;
+
+}
+
+.textoFondo{
+  text-decoration: underline;
+}
+
+.colorFlecha{
+  color: black;
+}
+
+.fondoSombra{
+  box-shadow: #414672 !important;
+}
+
+.btnOperaciones{
+  background-color: #414672  !important;
+  margin-left: 1%;
+  color: white !important;
+}
+
+/**-------------------OFERTAS----------------------------*/
+
+.card-blur {
+  background: linear-gradient(140deg, rgba(87, 67, 108, 1),rgb(47, 74, 121,0.9)) !important;
+}
+
+.zoom{
+  transition: 1s ease;
+
+}
+.zoom:hover{
+  transform : scale(1);
+
+}
+
+.borde{
+  border-radius: 89px 23px 89px 23px !important;
+
+}
+
+/**-------------------Porque safetravel-------------------------*/
+
+.sombra{
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2) !important;
+}
+
+
+/*-------------------MEDIA QUERYS ----------------------------------*/
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    
+  th:nth-child(3), td:nth-child(3),
+  th:nth-child(5), td:nth-child(5),
+  th:nth-child(7), td:nth-child(7),
+  th:nth-child(10), td:nth-child(10) {
+      text-align: center !important;
+      display: none !important;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+.table,  td, tr {
+  text-align: center;
+  display: block;
+}
+.table th,th{
+  display: none;
+}
+
+}
+
+.ticket {
+  background-color: #ffffff; /* Blanco */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.ticket-header {
+  background-image: linear-gradient(90deg, rgb(247, 195, 143), rgb(185, 168, 104)); /* Nuevos colores */
+  color: #ffffff; /* Blanco */
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 15px;
+  text-align: center; /* Centrar texto */
+}
+
+.ticket-details {
+  margin-bottom: 15px;
+  text-align: center; /* Centrar texto */
+}
+
+.ticket-details h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.ticket-details p {
+  margin: 0;
+}
+
+.ticket-footer {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  text-align: center; /* Centrar texto */
+}
+
+/* Estilos para el ticket */
+.ticket {
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Estilos para la tabla de precios */
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.price-table th, .price-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.price-table th {
+  background-color: #f2f2f2;
+}
+
+.price-table td:last-child {
+  width: 150px; /* Ancho del botón de selección */
+}
+
+/* Estilos para el botón de selección */
+.btn {
+  padding: 8px 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
