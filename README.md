@@ -13,6 +13,8 @@ SafeTravel es una aplicación moderna para la compra y gestión de billetes de t
 - 📅 **Consulta de horarios:** Explora las rutas disponibles y selecciona las más convenientes.
 - 🎫 **Billetes digitales:** Accede a tus billetes desde tu dispositivo móvil sin necesidad de imprimir.
 - 🔔 **Notificaciones:** Recibe avisos de compra y aviso por Mail.
+- 🔒 **Registro de usuarios:** Los usuarios deben registrarse para poder acceder a las funcionalidades de la aplicación.
+
 
 ### Para administradores:
 - ✍️ **Creación de viajes:** Configura nuevas rutas, horarios y precios de forma sencilla.
